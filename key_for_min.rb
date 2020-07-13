@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
     if name < name
       shortest = name
     end
-end
-  name
+  end
+shortest
 end
 
 def select_winner(passengers)
