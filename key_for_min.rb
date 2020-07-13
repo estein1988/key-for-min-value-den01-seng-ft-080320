@@ -4,19 +4,9 @@
 def key_for_min_value(name_hash)
   shortest = ""
   name_hash.each do |name|
-    if name < name
+    if name.length < name.length
       shortest = name
     end
   end
 shortest
-end
-
-def select_winner(passengers)
-  winner = ""
-  passengers.each do |suite, name|
-    if suite == :suite_a && name.start_with?("A")
-      winner = name
-    end
-  end
-winner
 end
